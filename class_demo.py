@@ -24,6 +24,4 @@ student_list.append(student1)
 student_list.append(student2)
 
 for student in student_list:
-    student.display_info()
-    student.greet()
-    print(student.info())
+    print(student.greet())
